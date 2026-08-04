@@ -35,3 +35,11 @@ flowchart TD
     class CS primary;
     class CA,D,SW,N,UA secondary;
 ```
+
+---
+
+**Core Goals:**
+Keep cloud environments **secure, available, reliable, and compliant.**
+*The right protection ensures business continuity, data privacy, and customer trust.*
+
+---
