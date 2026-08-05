@@ -61,3 +61,14 @@ flowchart TD
     class IAM,NS,DP,SA,CG secondary;
 
 ```
+- **Identity & Access Management (IAM):** Often considered the "new perimeter." In the cloud, IP addresses change constantly, so security is anchored to identity. Every person, application, and automation script must authenticate and be authorized before making changes.
+
+- **Network Security:** While traditional routing and switching principles still apply, cloud network security focuses on software-defined networking. This involves architecting secure Virtual Private Clouds (VPCs), configuring granular security groups (cloud firewalls), and ensuring traffic between microservices is encrypted.
+
+- **Data Protection:** Ensuring data is unusable if stolen. This involves managing encryption keys and ensuring data is encrypted both at rest (in databases) and in transit (over the network).
+
+- **Security Automation:** The core of modern DevOps and SRE practices. This means moving away from manual audits. Engineers build security directly into CI/CD pipelines (like GitHub Actions) so that every code commit and infrastructure change is automatically scanned for vulnerabilities before it is deployed.
+
+- **Compliance & Governance:** Translating legal and business requirements (like GDPR or HIPAA) into technical rules. This ensures the organization can prove to auditors that the environment is secure and that policies are actively being enforced.
+
+---
