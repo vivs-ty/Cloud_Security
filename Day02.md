@@ -29,6 +29,17 @@ flowchart TD
 
 ```
 
+What They Do (In Practice)
+- **Secure Cloud Infrastructure:** This goes beyond clicking buttons in a dashboard. It involves writing infrastructure code to guarantee that every new environment is secure by design. For example, using configuration management tools like Ansible to enforce security baselines across hundreds of virtual machines, or defining strict security contexts for pods running in a Kubernetes cluster.
+
+- **Implement Security Controls:** Applying rules that dictate what is allowed to happen. This means setting up Web Application Firewalls (WAFs), configuring data encryption protocols, and ensuring that tools are in place to block unauthorized actions.
+
+- **Manage User Access:** Moving away from shared passwords to strict, role-based access. This ensures that a developer only has access to a specific dev namespace, or that an automated service account only has the exact permissions needed to run a specific script.
+
+- **Monitor Threats:** Analyzing logs and metrics to detect anomalies. This draws heavily on network traffic analysis and system monitoring, looking for unusual data exfiltration or unauthorized login attempts.
+
+- **Respond to Incidents:** When an alert fires, engineers must act quickly. Modern incident response relies heavily on automation—triggering Python or Bash scripts to automatically isolate a compromised server, revoke compromised credentials, or parse logs for a rapid post-mortem analysis.
+
 ---
 
 ### Key Focus Areas
