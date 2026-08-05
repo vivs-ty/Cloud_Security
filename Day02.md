@@ -1,26 +1,49 @@
-# Day 2 
+# Day 2
 
-## Who is a Cloud Security Engineer ? 
-  - A cloud security Engineer is an IT professional who design, implements and manages security for cloud environments and applications.
+## Who is a Cloud Security Engineer?
+
+* A Cloud Security Engineer is an IT professional who designs, implements, and manages security for cloud environments and applications.
 
 ---
+
+### What They Do
 
 ```mermaid
+flowchart TD
+    WTD{What they do}
+    
+    WTD --> SCI[Secure Cloud Infrastructure]
+    WTD --> ISC[Implement Security Controls]
+    WTD --> MUA[Manage User Access]
+    WTD --> MT[Monitor Threats]
+    WTD --> RI[Respond to Incidents]
+    
+    classDef primary fill:#2b3137,stroke:#fafbfc,stroke-width:2px,color:#fff;
+    classDef secondary fill:#fafbfc,stroke:#d1d5da,stroke-width:1px,color:#24292e;
+    
+    class WTD primary;
+    class SCI,ISC,MUA,MT,RI secondary;
 
---------------------------------  What they do  ----------------------------------------------------------------------------
-|                                        |                            |                   |                                |
-|                                        |                            |                   |                                |
-Secure Cloud infrastructure         Implements security controls    Manage User Access   Monitor Threats             Respond to incidents
 ```
+
 ---
+
+### Key Focus Areas
 
 ```mermaid
+flowchart TD
+    KFA{Key Focus Areas}
+    
+    KFA --> IAM[Identity & Access Management]
+    KFA --> NS[Network Security]
+    KFA --> DP[Data Protection]
+    KFA --> SA[Security Automation]
+    KFA --> CG[Compliance & Governance]
 
------------------------------------------------Key Focus Areas----------------------------------------------------
-|                                       |                      |                     |                           |
-|                                       |                      |                     |                           |
-Identity & access management         Network security       Data protection       Security Automation        Compliance & Governance
+    classDef primary fill:#2b3137,stroke:#fafbfc,stroke-width:2px,color:#fff;
+    classDef secondary fill:#fafbfc,stroke:#d1d5da,stroke-width:1px,color:#24292e;
+    
+    class KFA primary;
+    class IAM,NS,DP,SA,CG secondary;
 
 ```
-
----
