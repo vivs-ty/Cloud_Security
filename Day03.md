@@ -4,7 +4,40 @@ Because modern businesses no longer host all their infrastructure in physical on
 
 ---
 
----
+##  The Critical Assets (What We Protect)
+
+Instead of a flat list, it helps to categorize these assets into how they function within the cloud ecosystem.
+
+```mermaid
+flowchart LR
+    CCA{Critical Cloud Assets}
+    
+    CCA --> DATA[Data & Identity]
+    CCA --> INFRA[Infrastructure & Code]
+    CCA --> OPS[Operations & Services]
+
+    %% Data & Identity
+    DATA -.-> CD[Customer Data]
+    DATA -.-> FI[Financial Information]
+    DATA -.-> EI[Employee Information]
+
+    %% Infrastructure & Code
+    INFRA -.-> SC[Source Code]
+    INFRA -.-> CK[Containers & Kubernetes]
+    INFRA -.-> AI[AI/ML Models]
+
+    %% Operations & Services
+    OPS -.-> BA[Business Applications]
+    OPS -.-> API[APIs & Services]
+    OPS -.-> ID[Internal Documents]
+
+    classDef primary fill:#2b3137,stroke:#fafbfc,stroke-width:2px,color:#fff;
+    classDef secondary fill:#fafbfc,stroke:#d1d5da,stroke-width:1px,color:#24292e;
+    
+    class CCA primary;
+    class DATA,INFRA,OPS secondary;
+
+```
 
 ##  Why Security is Essential (The Business Impact)
 
