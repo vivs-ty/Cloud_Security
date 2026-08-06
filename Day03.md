@@ -42,6 +42,7 @@ flowchart LR
 
 *These assets are valuable and must be protected from unauthorized access and cyber threats.*
 
+---
 
 **Breaking Down the Assets:**
 
