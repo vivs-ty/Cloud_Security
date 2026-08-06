@@ -1,15 +1,11 @@
-# Day 3
+# Day 3: Why Companies Need Cloud Security
 
-Why Companies Need Cloud Security
+Because modern businesses no longer host all their infrastructure in physical on-premise data centers, the "perimeter" has disappeared. Companies now run their most critical, high-value assets entirely in the cloud, making robust security the only thing standing between business operations and catastrophic failure.
 
-Companies store and run critical assets in the cloud:
+---
 
-customer data | business applications | Financial Information | Source code | internal Documents | AL/ML models | Containers & Kubernetes | APIs & Services | Employee Information
+---
 
-These assets are valuable and must be protected from unauthorized access and cyber threats.
+##  Why Security is Essential (The Business Impact)
 
-Why security is Essential
-
-Prevent Data Breaches | Avoid Financial Losses | Meet Compliance Requirements | Ensure Business Continuity | Build Customer Trust
-
-
+Security is not just about blocking hackers; it is a core requirement for keeping the business alive and functioning.
