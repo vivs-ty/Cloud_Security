@@ -39,6 +39,19 @@ flowchart LR
 
 ```
 
+
+*These assets are valuable and must be protected from unauthorized access and cyber threats.*
+
+
+**Breaking Down the Assets:**
+
+* **Infrastructure & Code (The Engine):** Your source code repositories, containerized workloads, and Kubernetes clusters are the blueprints and engines of the company. If an attacker gains access to a CI/CD pipeline or a container orchestration platform, they can inject malicious code or hijack compute resources.
+* **Data & Identity (The Crown Jewels):** Customer data, financial records, and employee information are highly regulated. A breach here doesn't just disrupt services; it leads to severe legal consequences.
+* **Operations & Services (The Business Logic):** APIs, microservices, and internal documents. APIs are particularly vulnerable because they are the exposed endpoints that allow different systems to talk to each other over the internet.
+
+---
+
+
 ##  Why Security is Essential (The Business Impact)
 
 Security is not just about blocking hackers; it is a core requirement for keeping the business alive and functioning.
