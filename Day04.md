@@ -49,6 +49,8 @@ Identity is the new perimeter in cloud environments. If attackers can compromise
 * **Excessive Permissions:** Too much access increases the risk of abuse. *Every CI/CD pipeline (like GitHub Actions) and service account must operate on strict least-privilege principles.*
 * **Poor Key Management:** Improper key storage or rotation can expose sensitive data.
 
+---
+
 ###  2. Infrastructure & Workloads
 
 This is where configuration management and continuous scanning become critical for maintaining a hardened baseline.
@@ -57,3 +59,24 @@ This is where configuration management and continuous scanning become critical f
 * **Network Misconfigurations:** Wrong network settings can allow unwanted access. *Tools like Ansible are vital here to enforce strict firewall rules and automatically correct configuration drift.*
 * **Unpatched Systems:** Missing updates can lead to vulnerabilities. *Vulnerability exploitation is a leading attack vector for initial access, driving 31% of modern breaches*.
 * **Container Risks:** Vulnerable images and misconfigurations can compromise containers. *Continuous scanning of Kubernetes pods and registries is required to catch these before deployment.*
+
+---
+
+###  3. Application & Data Flow
+
+Protecting how systems talk to each other and how data is handled throughout its lifecycle.
+
+* **Data Breaches:** Sensitive data can be exposed due to weak controls.
+* **Insecure APIs:** Weak APIs can be exploited by attackers. *APIs require intense security focus because they are the primary mechanisms used for interacting with cloud services*.
+* **Insecure Data Transfers:** Data in transit can be intercepted if not encrypted.
+
+---
+
+###  4. Operations & Resilience
+
+Ensuring visibility into the environment and keeping the business online.
+
+* **Lack of Monitoring:** Without monitoring, threats can go unnoticed for a long time. *Immediate detection relies on centralized logging and automated alert routing to the right engineering teams.*
+* **DDoS Attacks:** Attackers can overwhelm your services and cause downtime.
+
+----
