@@ -1,18 +1,43 @@
-# Day 04 Major Cloud Security Risks
+# Day 04: Major Cloud Security Risks
 
-*While the cloud offers great benefits, it also introduces new security challenges. Here are the common risk :*
+*While the cloud offers immense scalability and operational benefits, it fundamentally changes the threat landscape. Understanding these risks is the first step. The next step is to secure your cloud the right way!*
 
-1. **Data breaches** Sensitive data can be exposed due to weak controls.
-2. **Stolen Credentials** Attackers steal username, password or access logs.
-3. **Excessive Permissions** Too much access increases the risk of abuse.
-4. **Public Storage** Misconfigured storage can expose data to the public.
-5. **Unpatched Systems** Missing updates can lead to vulnerabilities.
-6. **Insecure APIs** Weak APIs can be exploited by attackers.
-7. **Network Misconfigurations** Wrong network settings can allow unwanted access.
-8. **Lack of Monitoring** Without monitoring threats can go unnoticed for a long time.
-9. **Insecure Data Transfers** Data in transit can be intercepted if not encrypted.
-10. **Poor Key Management** Improper key storage or rotation can expose sensitive data.
-11. **Container Risks** Vulnerable images and misconfiguration can compromise containers.
-12. **DDoS Attacks** Attackers can overwhelm your services and cause downtime.
+To make these 12 risks easier to digest and tackle from an engineering perspective, they can be broken down into four core domains:
 
-*Understanding these risks is the first step. The Next step is to secure you cloud the right way!*
+```mermaid
+flowchart TD
+    CR{12 Major Cloud Risks}
+    
+    CR --> IAM[ Identity & Keys]
+    CR --> INFRA[ Infrastructure & Workloads]
+    CR --> APP[ Data & Apps]
+    CR --> OPS[ Operations & Resilience]
+
+    IAM -.-> SC[Stolen Credentials]
+    IAM -.-> EP[Excessive Permissions]
+    IAM -.-> PKM[Poor Key Management]
+
+    INFRA -.-> PS[Public Storage]
+    INFRA -.-> NM[Network Misconfigs]
+    INFRA -.-> US[Unpatched Systems]
+    INFRA -.-> CKR[Container Risks]
+
+    APP -.-> DB[Data Breaches]
+    APP -.-> IA[Insecure APIs]
+    APP -.-> IDT[Insecure Transfers]
+
+    OPS -.-> LM[Lack of Monitoring]
+    OPS -.-> DA[DDoS Attacks]
+
+    classDef primary fill:#2b3137,stroke:#fafbfc,stroke-width:2px,color:#fff;
+    classDef secondary fill:#fafbfc,stroke:#d1d5da,stroke-width:1px,color:#24292e;
+    classDef tertiary fill:#ffffff,stroke:#e1e4e8,stroke-width:1px,color:#24292e;
+    
+    class CR primary;
+    class IAM,INFRA,APP,OPS secondary;
+    class SC,EP,PKM,PS,NM,US,CKR,DB,IA,IDT,LM,DA tertiary;
+
+```
+
+---
+
