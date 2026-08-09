@@ -41,3 +41,13 @@ flowchart TD
 
 ```
 ---
+
+### What They Do (High Level)
+
+** Phase 1: Build & Protect**
+
+* **01. Identity & Access Management (IAM):** Manage users, roles, and permissions with least privilege. (This means ensuring that human engineers, Python automation toolkits, and CI/CD runners only have the exact access tokens they need to execute their tasks).
+* **02. Network Security:** Secure VPCs, security groups, firewalls, and connections. (Evolving from manual firewall configuration to defining all routing and network rules as code).
+* **03. Data Protection:** Encrypt data at rest and in transit, and manage cryptographic keys.
+* **09. Secure Configurations:** Follow secure baselines and harden cloud resources. (Using tools like Ansible to enforce identical, secure states across all servers and clusters automatically).
+
