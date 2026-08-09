@@ -68,5 +68,8 @@ flowchart TD
 
 ---
 
+###  The Ultimate Goal
 
+Their goal is simple: **`Prevent attacks`**, **`protect data`**, and keep the cloud environment **`secure and reliable.`**
 
+---
