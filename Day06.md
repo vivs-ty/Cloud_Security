@@ -51,3 +51,11 @@ flowchart TD
 * **Inspector:** Provides automated vulnerability assessments to test and address publicly known software vulnerabilities on EC2 instances, containers, and applications. This is critical for integrating automated security scans directly into container registries or deployment pipelines.
 * **CloudWatch:** Monitors resources, logs, and metrics while allowing engineers to set alarms for real-time insights, shifting operations from reactive troubleshooting to proactive reliability management.
 
+
+###  3. Auditing, Compliance & Centralized Response
+
+* **CloudTrail:** Tracks and logs all API calls made to AWS resources, providing a complete audit trail for security analysis and forensic troubleshooting.
+* **AWS Config:** Tracks resource changes, evaluates configurations against desired states, and ensures continuous compliance with defined rules. This is highly effective at preventing configuration drift in infrastructure provisioned via orchestration tools like Ansible.
+* **Security Hub:** Acts as a centralized dashboard that aggregates, normalizes, and prioritizes security findings from tools like GuardDuty, Inspector, and Config into a common JSON format. This consolidated view simplifies security management across the entire environment.
+
+---
