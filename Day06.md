@@ -7,3 +7,33 @@ When moving from a traditional network operations view to an automated, scalable
 
 ---
 
+### The AWS Security Ecosystem
+
+```mermaid
+flowchart TD
+    Main{AWS Security Ecosystem}
+    
+    Main --> Protect[ Protect]
+    Main --> Detect[ Detect]
+    Main --> Respond[ Respond & Govern]
+
+    Protect -.-> IAM[IAM: Access Control]
+    Protect -.-> WAF[WAF & Shield: Edge Protection]
+    
+    Detect -.-> GD[GuardDuty: Threat Detection]
+    Detect -.-> Insp[Inspector: Vulnerability Scanning]
+    Detect -.-> CW[CloudWatch: Logging & Metrics]
+    
+    Respond -.-> SH[Security Hub: Centralized Alerts]
+    Respond -.-> CT[CloudTrail: API Auditing]
+    Respond -.-> Conf[AWS Config: Resource Tracking]
+
+    classDef primary fill:#2b3137,stroke:#fafbfc,stroke-width:2px,color:#fff;
+    classDef secondary fill:#fafbfc,stroke:#d1d5da,stroke-width:1px,color:#24292e;
+    
+    class Main primary;
+    class Protect,Detect,Respond,IAM,WAF,GD,Insp,CW,SH,CT,Conf secondary;
+
+```
+
+---
