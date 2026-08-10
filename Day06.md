@@ -59,3 +59,7 @@ flowchart TD
 * **Security Hub:** Acts as a centralized dashboard that aggregates, normalizes, and prioritizes security findings from tools like GuardDuty, Inspector, and Config into a common JSON format. This consolidated view simplifies security management across the entire environment.
 
 ---
+
+*These tools work together to strengthen the overall security posture, reduce operational risks, and enable programmatic, automated responses to incidents.*
+
+---
