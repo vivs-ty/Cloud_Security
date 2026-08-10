@@ -37,3 +37,12 @@ flowchart TD
 ```
 
 ---
+
+
+
+###  1. Identity & Network Protection
+
+* **IAM (Identity & Access Management):** Manages user identities, roles, and permissions. Enforcing least privilege access ensures that automated Bash scripts, Python runbooks, or CI/CD workflows only have the exact access required and nothing more.
+* **WAF & Shield:** Protects internet-facing web applications from common exploits and scrapers. Shield specifically defends against Distributed Denial of Service (DDoS) threats, ensuring high availability and uptime.
+
+
