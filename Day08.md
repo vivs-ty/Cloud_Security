@@ -49,3 +49,11 @@ flowchart TD
 
 ---
 
+##  The Result
+
+---
+
+> **Key Takeaway:**
+> *Cloud security is not optional anymore. It's a business need and a career booster!*
+
+---
