@@ -47,3 +47,10 @@ These roles focus on designing, building, and automating security directly into 
 * **5. DevSecOps Engineer:** Integrate security into DevOps and CI/CD pipelines. This role is heavily automation-focused, ensuring that code is safe *before* it goes live by embedding security directly into development workflows.
 * **8. Data Security Engineer:** Protect data across its lifecycle in the cloud. They focus specifically on encryption (at rest and in transit), key management, and preventing sensitive data exposure.
 
+###  Operations & Analysis (The Defenders)
+
+These roles are the "boots on the ground" responding to alerts and active incidents.
+
+* **2. Security Analyst:** Monitor, detect, and respond to security incidents in the cloud. They investigate suspicious activities (like a spike in failed logins) and execute remediation steps.
+* **6. SOC (Security Operations Center) Analyst:** Monitor security events and investigate threats 24/7. They handle the first line of triage when tools like AWS GuardDuty or Security Hub trigger alarms.
+
