@@ -54,3 +54,10 @@ These roles are the "boots on the ground" responding to alerts and active incide
 * **2. Security Analyst:** Monitor, detect, and respond to security incidents in the cloud. They investigate suspicious activities (like a spike in failed logins) and execute remediation steps.
 * **6. SOC (Security Operations Center) Analyst:** Monitor security events and investigate threats 24/7. They handle the first line of triage when tools like AWS GuardDuty or Security Hub trigger alarms.
 
+###  Testing & Research (The Attackers/Hunters)
+
+These roles take an offensive approach to find vulnerabilities before the bad guys do.
+
+* **7. Penetration Tester:** Test cloud systems for vulnerabilities and exploit risks. They actively try to break into the environment to prove where the weak spots are.
+* **10. Security Researcher & Threat Hunter:** Research new threats and proactively hunt for risks. Rather than waiting for an alert to fire, they actively search the environment for hidden attackers or novel vulnerabilities.
+
