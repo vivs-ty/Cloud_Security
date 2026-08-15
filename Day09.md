@@ -38,3 +38,12 @@ flowchart TD
 
 ---
 
+###  Engineering & Architecture (The Builders)
+
+These roles focus on designing, building, and automating security directly into the infrastructure and code.
+
+* **1. Cloud Security Engineer:** Design, implement, and manage secure cloud environments. They bridge the gap between infrastructure and security, often writing the baseline configurations that secure networks, workloads, and identities.
+* **3. Cloud Security Architect:** Design secure cloud architectures and high-level security strategies. This is a senior role that creates the "blueprint" for enterprise security, ensuring all measures align with best practices.
+* **5. DevSecOps Engineer:** Integrate security into DevOps and CI/CD pipelines. This role is heavily automation-focused, ensuring that code is safe *before* it goes live by embedding security directly into development workflows.
+* **8. Data Security Engineer:** Protect data across its lifecycle in the cloud. They focus specifically on encryption (at rest and in transit), key management, and preventing sensitive data exposure.
+
