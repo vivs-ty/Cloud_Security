@@ -61,3 +61,11 @@ These roles take an offensive approach to find vulnerabilities before the bad gu
 * **7. Penetration Tester:** Test cloud systems for vulnerabilities and exploit risks. They actively try to break into the environment to prove where the weak spots are.
 * **10. Security Researcher & Threat Hunter:** Research new threats and proactively hunt for risks. Rather than waiting for an alert to fire, they actively search the environment for hidden attackers or novel vulnerabilities.
 
+###  Governance & Advisory (The Strategists)
+
+These roles ensure the business is meeting legal requirements and following industry standards.
+
+* **4. Compliance Specialist:** Ensure cloud environments meet regulatory standards (like GDPR, HIPAA, or SOC 2). They translate legal requirements into technical policies.
+* **9. Cloud Security Consultant:** Advise organizations on best practices and security solutions. Often working for consulting firms, they assess client environments, identify gaps, and recommend improvements to strengthen their overall posture.
+
+---
